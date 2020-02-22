@@ -1,7 +1,7 @@
 prefix=/usr
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
-includedir=${exec_prefix}/include
+includedir=${exec_prefix}/include/properties-cpp
  
 Name: properties-cpp
 Description: A very simple convenience library for handling properties and signals in C++11.

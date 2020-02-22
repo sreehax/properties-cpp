@@ -14,7 +14,7 @@ properties-cpp
 %setup -q -n %{name}-%{version}
 
 %install
-%define include %{buildroot}/usr/include
+%define include %{buildroot}/usr/include/properties-cpp
 %define pkgconfig %{buildroot}/usr/lib/pkgconfig
 mkdir -p %{include}
 mkdir -p %{pkgconfig}
@@ -26,6 +26,6 @@ install -Dm 644 pkgconfig/properties-cpp.pc %{pkgconfig}
 %files
 %defattr(-,root,root,-)
 /usr/lib/pkgconfig/properties-cpp.pc
-/usr/include/signal.h
-/usr/include/property.h
-/usr/include/connection.h
+/usr/include/properties-cpp/signal.h
+/usr/include/properties-cpp/property.h
+/usr/include/properties-cpp/connection.h
