@@ -19,7 +19,7 @@ properties-cpp
 mkdir -p %{include}
 mkdir -p %{pkgconfig}
 install -Dm 644 include/connection.h %{include}
-install -Dm 644 include/properties.h %{include}
+install -Dm 644 include/property.h %{include}
 install -Dm 644 include/signal.h %{include}
 install -Dm 644 pkgconfig/properties-cpp.pc %{pkgconfig}
 
@@ -27,5 +27,5 @@ install -Dm 644 pkgconfig/properties-cpp.pc %{pkgconfig}
 %defattr(-,root,root,-)
 /usr/lib/pkgconfig/properties-cpp.pc
 /usr/include/signal.h
-/usr/include/properties.h
+/usr/include/property.h
 /usr/include/connection.h
